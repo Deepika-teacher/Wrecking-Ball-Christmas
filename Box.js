@@ -21,7 +21,7 @@ class Box{
         push();
         translate(posX,posY);
         rotate(ang);
-
+//
         if(this.body.speed>8){
             World.remove(myWorld,this.body);
             this.visibility-=5;
