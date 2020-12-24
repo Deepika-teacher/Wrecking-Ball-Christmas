@@ -9,7 +9,7 @@ class Box{
         this.width=100;
         this.height=100;
         World.add(myWorld,this.body);
-        this.image=loadImage("giftbox.jpg");
+        this.image=loadImage("giftBox.jpg");
         this.visibility=255;
     }
 
